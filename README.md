@@ -1,10 +1,9 @@
 # Play with food
 
-#### Video Demo:  https://youtu.be/LWFgI37faDA  // Not available
-#### Description:
+## Description:
 
 
-## Introduction
+### Introduction
 Project title: Play with food\
 Name: Marc Kooij\
 GitHub: djkeu\
@@ -12,18 +11,25 @@ City: Leeuwarden\
 Country: The Netherlands\
 
 
-## A small summary
-Play with food is a game in which the player is to look for severtal ingredients and combine them into a meal. As the game advances, the player is to perform more tasks, like buying the food, looking for shops, etcetera.\
+### A small summary
+Play with food is a game in which the player is to look for several ingredients and combine them into a meal. As the game advances, the player is to perform more (difficult) tasks, like buying the food, looking for shops, etcetera.\
+
 First edition will be a Scratch or Python program.
 
 
-## Running the program
+### Running the program
 The Python version is executed in the terminal, by typing 'python main.py'. The program does not take any command-line arguments.\
 The Scratch version is to be run on https://scratch.mit.edu/
 
 
-## File-structure
+### Gameplay
+Only certain combinations are allowed to be combined into a meal. User is to choose ingredients from several lists.
+
+
+### File-structure
+
 The program has the following file-structure:
+#### (Yet to be determined)
 - ./play_with_food
     - /img
         - ingredient.png
