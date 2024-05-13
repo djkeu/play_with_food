@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+bin/
+./pytest_cache
+
+# Settings
+.vscode/settings.json
+
+# Virtual_environments
+pwf_env/
+
+# Text and json files
+*.txt
+*.json
+ 
