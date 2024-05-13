@@ -40,27 +40,13 @@ The program has the following file-structure:
         - meal01_tn.png
         - *.png/jpg/jpeg/gif
     - /txt
-        - user_directions.txt
+        - feedback_user.txt
         - *.txt
     - ingredients.json
-    - main.py
     - play_with_food.py
     - README.md
     - requirements.txt
-    - test_main.py
+    - test_play_with_food.py
 
 
 
-play_with_food/
-    play_with_food.py # this is the program you run.
-    play_with_food_lib/
-        __init__.py
-        main.py
-        MainWindow.py
-        ClassThing.py
-        function_thing.py
-        ...
-
-My AppName.py contains incredibly sparse boilerplate code. A copyright header, some comment about what the app does... Usually it just imports AppNameLib and calls main.py, for a total of about 5 lines of actual code.
-
-main.py will handle all of the argument processing and setup code, set any constants (if appropriate), create my MainWindow instance if it has a user interface, start event loops... but it is also pretty sparse. Maybe a few dozen lines. 
